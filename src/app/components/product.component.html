@@ -1,0 +1,8 @@
+
+<h3>{{ product.title }}</h3>
+
+  <img [src]="product.image" alt="">
+  <strong> {{ product.price  | currency: 'CLP'}} </strong>
+  <p>{{ product.description  | capitalize }}</p>
+  <p>{{ today |date: 'dd/MM/y - HH:mm'}}</p>
+  <button (click)="addCart();">Añadir al carrito</button>
