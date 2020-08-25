@@ -8,6 +8,16 @@ import { ProductComponent } from './components/product.component';
 import { CartComponent } from './cart/cart.component';
 import { ExponentialPipe } from './pipes/exponential/exponential.pipe';
 import { CapitalizePipe } from './pipes/capitalize/capitalize.pipe';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { ContactComponent } from './contact/contact.component';
+import { DemoComponent } from './demo/demo.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +25,17 @@ import { CapitalizePipe } from './pipes/capitalize/capitalize.pipe';
     ProductComponent,
     CartComponent,
     ExponentialPipe,
-    CapitalizePipe
+    CapitalizePipe,
+    HomeComponent,
+    ProductsComponent,
+    ContactComponent,
+    DemoComponent,
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent,
+    PageNotFoundComponent,
+    ProductDetailComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
